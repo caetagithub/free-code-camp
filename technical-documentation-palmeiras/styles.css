@@ -36,6 +36,7 @@ hr {
    border-top: darkgreen solid 2px;
    font-size: 1.2em;
    background-color: green;
+   height: 100vh;
 }
 
 #navbar header {
