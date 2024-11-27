@@ -15,6 +15,14 @@ hr {
 #main-doc {
    position: absolute;
    margin-left: 310px;
+   background-image: url(fundo.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+}
+
+#main-doc background-image {
+   opacity: 0.5;
 }
 
 #navbar {
@@ -25,11 +33,13 @@ hr {
    top: 0;
    left: 0;
    padding-top: 10px;
-   border-right: gray solid 2px;
+   border-top: darkgreen solid 2px;
    font-size: 1.2em;
+   background-color: green;
 }
 
 #navbar header {
+   color: white;
    text-align: center;
    padding-bottom: 10px;
    font-size: 2em;
@@ -38,7 +48,8 @@ hr {
 #navbar li {
    font-size: 1.1em;
    padding: 15px;
-   border-top: gray solid 2px;
+   border-top: darkgreen solid 2px;
+   color: white;
 }
 
 #navbar li:nth-last-of-type() {
@@ -59,12 +70,16 @@ hr {
 
 .main-section {
    padding: 10px;
+   background-color: rgba(21, 128, 0, 0.5);
+   color: white;
 }
 
 .main-section header {
-   font-size: 1.5em;
+   font-size: 2.0em;
    text-align: center;
    margin-bottom: 30px;
+   color: darkgreen;
+   background-color: white;
 }
 
 .main-section p {
@@ -78,10 +93,10 @@ hr {
 }
 
 .main-section code {
-   display: block;
+   color: white;
    margin: 0px 20px 0px 20px;
    padding: 10px;
-   background-color: #D9D9D9;
+   background-color: darkgreen;
 }
 
 @media (max-width: 768px) {
