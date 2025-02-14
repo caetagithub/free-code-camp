@@ -35,7 +35,7 @@ body {
   position: fixed;
   z-index: 1000;
   display: flex;
-  justify-content: space-between;
+
   width: 79.3%;
   height: 30px;
   background-color: var(--color-2);
@@ -182,7 +182,7 @@ footer > a {
   margin: auto;
 }
 
-@media only screen and (max-width:1000px) {
+@media only screen and (max-width: 900px) {
   html {
     display: flex;
   }
