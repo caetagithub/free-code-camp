@@ -1,0 +1,189 @@
+:root {
+  --color-1: #857D76;
+  --color-2: #46413E;
+  --color-3: #686361;
+  --color-4: #122B42;
+  --color-5: #122B42;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  width: 1000px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: var(--color-1);
+}
+
+#img-principal {
+  width: 50%;
+}
+
+#header {
+  position: fixed;
+  z-index: 1000;
+  display: flex;
+
+  width: 79.3%;
+  height: 30px;
+  background-color: var(--color-2);
+  align-items: center;
+}
+
+#nav-bar {
+  display: flex;
+  gap: 30px;
+  position: fixed;
+  z-index: 1000;
+  background-color: var(--color-2);
+  width: 79.3%;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  color: var(--color-4);
+  width: 100%;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+#header-img {
+  width: 60px;
+}
+
+#div-features {
+  display: flex;
+  justify-content: center;
+}
+
+#title {
+  text-align: center;
+  margin: 10px 0 10px 0;
+  font-size: 2.5em;
+  color: var(--color-4);
+}
+
+#video1 {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 20px 0;
+}
+
+#prices-title {
+  grid-area: prices-title;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 1.5em;
+  color: var(--color-4);
+}
+
+#price1 {
+  grid-area: price1;
+}
+
+#price2 {
+  grid-area: price2;
+}
+
+#price3 {
+  grid-area: price3;
+}
+
+#div-prices {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 0.1fr);
+  flex-wrap: wrap;
+  grid-template-areas: 
+  "prices-title prices-title prices-title"
+  "price1 price2 price3"
+  ;
+  background-color: white;
+  border: 2px solid var(--color-1);
+}
+
+#price1, #price2, #price3 {
+  text-align: justify;
+  padding: 0px 10px 20px 10px;
+}
+
+#price1 > h3 {
+  margin: 10px 0px;
+  color: var(--color-5);
+  }
+
+#price2 > h3 {
+  margin: 10px 0px;
+  color: var(--color-5);
+  }
+
+#price3 > h3 {
+  margin: 10px 0px;
+  color: var(--color-5);
+}
+
+#price1 > img {
+  width: 310px;
+  height: 100px;
+}
+
+#price2 > img {
+  width: 310px;
+  height: 100px;
+}
+
+#price3 > img {
+  width: 310px;
+  height: 100px;
+}
+
+#form {
+  background-color: white;
+  margin-top: 5px;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  text-align: center;
+  border: 2px solid var(--color-1);
+}
+
+#form input[type=submit] {
+  margin: 0px 10px 0px 10px;
+  text-align: center;
+  width: 50px;
+  color: white;
+  background-color: var(--color-5);
+}
+
+footer {
+  height: 15px;
+  margin: 5px 0px;
+  text-align: center;
+  background-color: var(--color-2);
+}
+
+footer > a {
+  margin: auto;
+}
+
+@media only screen and (max-width: 900px) {
+  html {
+    display: flex;
+  }
+}
