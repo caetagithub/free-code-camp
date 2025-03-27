@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <title>Recipe - Brazilian-style Chilled Cake</title>
+    </head>
+    <body>
+      <h1>BRAZILIAN-STYLE CHILLED CAKE</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque congue quis velit a ultrices. Aliquam faucibus enim libero, vitae sagittis ante eleifend eu. Vestibulum mattis justo in orci tristique molestie. Vestibulum quis eleifend justo. Nam bibendum pretium quam, sit amet fermentum enim mattis non
+</p>
+      <h2>Ingredients</h2>
+      <ul>
+        <li><strong>3</strong> cups all-purpose flour</li>
+        <li><strong>1</strong> tablespoon baking powder</li>
+        <li><strong>3</strong> egg whites</li>
+        <li><strong>2 ½</strong> cups white sugar</li>
+        <li><strong>3</strong> egg yolks</li>
+        <li><strong>1</strong> cup orange juice</li>
+        <li><strong>1 ¾</strong> cups milk</li>
+        <li><strong>1 (14 ounce)</strong> can coconut milk</li>
+        <li><strong>1 (14 ounce)</strong> can sweetened condensed milk</li>
+        <li><strong>1</strong> cup flaked coconut</li>
+      </ul>
+      <h2>Instructions</h2>
+      <ol>
+        <li>Preheat the oven to <strong>350°F (175°C)</strong>. Grease and flour a 9x13-inch pan. Sift the flour and baking powder together.</li>
+        <li>Whisk the egg whites until soft peaks form, then gradually add the sugar while continuing to beat until stiff peaks develop. <strong>Gently</strong> fold in the egg yolks until fully incorporated, then alternately fold in the flour mixture and orange juice. Pour the batter into the prepared pan.</li>
+        <li>Bake in the preheated oven until the top is golden brown and a toothpick inserted in the center comes out clean, about <strong>40 minutes.</strong></li>
+        <li>Once baked, remove the cake from the oven and use a fork to poke holes across the top at 1-inch intervals. In a small bowl, combine the milk, coconut milk, and sweetened condensed milk. Evenly pour the mixture over the cake, then sprinkle with coconut flakes. Refrigerate until fully chilled, about <strong>3 hours</strong>.</li>
+      </ol>
+      <img src="https://cdn.freecodecamp.org/curriculum/labs/recipe.jpg" alt="Ingredients for a Brazilian-style chilled cake">
+    </body>
+  </html>
