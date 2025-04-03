@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut orci accumsan, ultricies est nec, efficitur arcu.">
+      <title>Travel Agency Page</title>
+    </head>
+    <body>
+      <h1>Foz do Iguaçu</h1>
+      <p>Mauris feugiat, ante ac gravida pellentesque, ligula tortor sagittis tortor, in ornare felis orci nec lacus. Pellentesque vel purus nec sapien porta pharetra vel id lectus. Mauris maximus cursus elit, et consequat lacus pulvinar aliquet.</p>
+      <h2>Packages</h2>
+      <p>Nam rutrum nisi ac turpis ultricies venenatis. Aenean in semper lacus, a feugiat nisl. Sed est odio, volutpat ac tortor id, hendrerit porttitor felis.</p>
+      <ul>
+        <li><a href="https://www.freecodecamp.org/learn" target="_blank">Group Travels</a></li>
+        <li><a href="https://www.freecodecamp.org/learn" target="_blank">Private Tours</a></li>
+      </ul>
+      <h2>Top Itineraries</h2>
+      <figure>
+        <a href="https://www.freecodecamp.org/learn" target="_blank"><img style="width:800px;" src="https://www.viajeparana.com/sites/viaje-parana/arquivos_restritos/files/styles/escala_1140_largura_/public/imagem/2019-07/topo_3_0.webp?itok=Dyl8m1dm" alt="Iguaçu Falls I"></a>
+        <figcaption>Cataratas do Iguaçu - Foto: Leonardo Frederico Sguarezi / Acervo EPR</figcaption>
+      </figure>
+      <figure>
+        <a href="https://www.freecodecamp.org/learn" target="_blank"><img style="width:600px;" src="https://www.viajeparana.com/sites/viaje-parana/arquivos_restritos/files/styles/escala_1140_largura_/public/imagem/2019-05/itaipu_0.webp?itok=X9wDzPQz" alt="Itaipu Binacional"></a>
+        <figcaption>Itaipu Binacional - Foto: José Fernando Ogura / Acervo EPR</figcaption>
+      </figure>
+      <figure>
+        <a href="https://www.freecodecamp.org/learn" target="_blank"><img style="width:600px;" src="https://www.viajeparana.com/sites/viaje-parana/arquivos_restritos/files/styles/escala_1140_largura_/public/imagem/2023-11/cataratas_do_iguacu_-_pni_-_foto_de_nilmar_fernando_.webp?itok=VK6NPP0W" alt="Iguaçu Falls II"></a>
+        <figcaption>Foto: Nilmar Fernando</figcaption>
+      </figure>
+    </body>
+  </html>
