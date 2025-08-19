@@ -1,0 +1,51 @@
+html {
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  padding: 50px 0px;
+  margin: 0 auto;
+  width: 90vw;
+  height: 100vh;
+  min-height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+header, footer {
+    text-align: center;
+    padding: 30px 0;
+}
+
+main {
+    display: flex;
+    padding: 30px 0;
+}
+
+hr {
+  width: 70%;
+}
+
+section {
+    width: 80%;
+}
+
+h2 {
+    text-align: center;
+    width: 80%;
+}
+
+hr {
+  border: none;
+  background-color: currentColor;
+  height: 0.2rem;
+}
+
+ul {
+    list-style-position: inside;
+    padding: 0px;
+}
