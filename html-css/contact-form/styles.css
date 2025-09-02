@@ -1,0 +1,89 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+}
+
+.form-container {
+  display: block;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  height: 367.917px;
+  text-align: center;
+}
+
+form {
+    display: block;
+    width: 300px;
+    height: 345px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+label { 
+  display: block;
+  margin: auto;
+  color: gray;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+input, textarea {
+  display: inline-box;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 300px;
+
+border-bottom-color: rgb(221, 221, 221);
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+border-bottom-width: 0.666667px;
+border-left-color: rgb(221, 221, 221);
+border-left-style: solid;
+border-left-width: 0.666667px;
+border-right-color: rgb(221, 221, 221);
+border-right-style: solid;
+border-right-width: 0.666667px;
+border-top-color: rgb(221, 221, 221);
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+border-top-style: solid;
+border-top-width: 0.666667px;
+}
+
+textarea {
+    min-height: 20px;
+    resize: vertical;
+    max-height: 100px;
+}
+
+button {
+   background-color: lightgreen;
+   color: white;
+   font-size: 0.9em;
+   overflow-wrap: break-word;
+   width: 100px;
+   height: 30px;
+   border: none;
+   border-radius: 5px;
+ }
+
+button:hover {
+   background-color: orange;
+ }
