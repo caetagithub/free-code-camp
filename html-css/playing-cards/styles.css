@@ -32,10 +32,12 @@ body {
   box-shadow: 2px 2px 2px gray;
   border: 1px solid black;
   font-size: 30px;
+  font-weight: 700;
+  text-align: center;
 }
 
 .card:nth-child(3n), .card:last-child {
-    color: red;
+  color: red;
 }
 
 .left {
@@ -50,20 +52,15 @@ body {
 }
 
 .right {
-  align-self: flex-end; 
+  align-self: flex-end;
+  transform: rotate(180deg);
 }
 
-.left, .right {
-  
-}
-
-.left:first-child  {
+.left:first-child, .right:last-child   {
   padding-top: 10px;
-  padding-left: 10px;
-}
+  padding-left: 5px;
+  }
 
-.right:last-child {
-  padding-bottom: 10px;
-  padding-right: 10px;
+.middle div:last-child {
+  transform: rotate(180deg);
 }
-
