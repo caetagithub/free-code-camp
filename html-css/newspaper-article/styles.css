@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+  font-size: 24px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #F5FFFA;   
+}
+
+.newspaper {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: white;
+  margin: 30px;
+  padding: 60px 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.name {
+  font-size: 2rem;
+  font-family: Times New Roman, serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+.name, .author {
+  text-transform: uppercase;
+}
+
+.author {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.date {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.headline {
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.sub-headline {
+  font-weight: 100;
+  font-size: 1.5em;
+  font-style: italic;
+  margin-top: 20px;
+}
+
+.text {
+  text-indent: 20px;
+  line-height: 2em;
+  margin-top: 20px;
+}
+
+.text::first-letter {
+  font-weight: bold;
+  font-size: 2em;
+}
