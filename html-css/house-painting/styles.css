@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(#b3e6ff, #b3e6ff 60%, green 60%);
+}
+
+#house {
+  position: relative;
+  border: 6px solid #b35900;
+  width: 500px;
+  height: 400px;
+  background-color: #ff9980;
+}
+
+#chimney {
+    position: absolute;
+    width: 90px;
+    height: 100px;
+    top: -100px;
+    left: 65%;
+    background: repeating-linear-gradient(#e6e6e6, #e6e6e6 10%, black 10%, black 12%);
+    border: 2px solid black;
+    z-index: -1;
+}
+
+#smoke {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: -20px;
+    left: 20px;
+    border-radius: 50%;
+    box-shadow: 0 -10px 10px 10px rgba(0, 0, 0, 0.3);
+    border: none;
+}
+
+#roof {
+  position: absolute;
+  width: 100%;
+  height: 110px;
+  border-top: 2px solid #b35900;
+  background: repeating-linear-gradient(45deg, #b35900, #b35900 2%, transparent 2%, transparent 5%), repeating-linear-gradient(-45deg, #b35900, #b35900 2%, #ff9980 2%, #ff9980 5%);
+  top: 0;
+  z-index: 1;
+}
+
+#window-1, #window-2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 6px solid #b35900;
+    background: linear-gradient(to right, #ffffb3, #ffffb3 48%, #b35900 48%, #b35900 52%, #ffffb3 52%, #ffffb3 100%);
+    z-index: 2;
+    top: 40%;
+}
+
+#window-1 {
+  top: 40%;
+  left: 7.5%;
+}
+
+#window-2 {
+  top: 40%;
+  right: 7.5%;
+}
+
+#door {
+  position: absolute;
+  bottom: 0%;
+  left: 185px;
+  z-index: 3;
+  border: 6px solid #b35900;
+  background-color: #E6E6E6;
+  width: 130px;
+  height: 180px;
+  transform: translateY(6px);
+}
+
+#door-knob {
+    position: absolute;
+    background-color: #b35900;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    top: 50%;
+    right: 5%;
+}
+
+#welcome {
+    width: 130px;
+    height: 40px;
+    background-color: #85E084;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: absolute;
+    bottom: -47px;
+    left: 178px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    transform: skewX(-20deg);
+    text-transform: uppercase;
+}
