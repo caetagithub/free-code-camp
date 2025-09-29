@@ -1,0 +1,76 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+  width: 100vw;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+thead {
+  background-image: linear-gradient(#83d2f961, #83d2f9);
+}
+
+th, td {
+  padding: 6px 0px;
+}
+
+span {
+  display: inline-block;
+}
+
+tr[class="to-read"] span[class="status"] {
+  border: 1px solid black;
+  background-image: linear-gradient(#FF1D0861, #FF1D08);
+}
+
+tr[class="read"] span[class="status"] {
+  border: 1px solid #1BC91D;
+  background-image: linear-gradient(#49E54961, #49E549);
+}
+
+tr[class="in-progress"] span[class="status"] {
+  border: 1px solid #C38509;
+  background-image: linear-gradient(#C3850961, #C38509);
+}
+
+tr[class="read"] {
+  background-image: linear-gradient(#9FFF9D61, #9FFF9D);
+}
+
+tr[class="to-read"] {
+  background-image: linear-gradient(#D5E3D561, #D5E3D5);
+}
+
+tr[class="in-progress"] {
+  background-image: linear-gradient(#FFDE9E61, #FFDE9E);
+}
+
+span[class="status"], span[class^="rate"] {
+  height: 1.2em;
+  width: 100px;
+  padding: 3px;
+  border-radius: 20px;
+}
+
+span[class^="rate"] > span {
+  border: 1px solid black;
+  border-radius: 50px;
+  margin: 2px;
+  height: 20px;
+  width: 20px;
+  background-color: white;
+}
+
+span[class~="one"] > span:first-of-type {
+  background-image: linear-gradient(#FFDF38);
+}
+
+span[class~="two"] > span:nth-of-type(-n+2) {
+  background-image: linear-gradient(#FFDF38);
+}
+
+span[class~="three"] > span {
+  background-image: linear-gradient(#FFDF38);
+}
